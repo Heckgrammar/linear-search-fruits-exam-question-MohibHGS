@@ -8,8 +8,18 @@
 
             // Your program should:
             // Ask the user what word they would like to find
+            Console.WriteLine("WHat word would you like to find?");
+            string word = Console.ReadLine();
             // Output the message True if the word is found
+            if (fruits.Contains(word))
+            {
+                Console.WriteLine("True");
+            }
             // Output the message False if the word is not found
+            else
+            {
+                Console.WriteLine("False");
+            }
             
             // You must write your own linear search routine and not use any built-in fuctions available in C#
             // You should use meaningful variable names
